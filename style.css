@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background:#F1F5F8 ;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h1{
+    letter-spacing: .1em;
+    padding: 1rem;
+    text-align: center;
+    color:#122D44;
+    width: fit-content;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+h1::after{
+    display: block;
+    content: '';
+    border: 2px solid #4CA7EA;
+    width: 30%;
+    position: relative;
+    left: 37%;
+}
+.wrraper{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(175, 161, 161, 0.852) ;
+    margin-top: 2rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    flex-direction: column;
+    max-height: 1200px;
+
+}
+.img-box{
+    width: 100px;
+   
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 8px -2px #49A6EA ;
+}
+.commas{
+    position: absolute;
+    background:#49A6EA ;
+    width: 30px;
+    height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+    border-radius:50% ;
+    top: 0%;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+}
+.text{
+    text-align: center;
+}
+.authore{
+    color: #102C48;
+    font-size: 1.8rem;
+    letter-spacing: .1em;
+    margin-top: 1.5rem;
+}
+.job{
+    color: #4FA2E7;
+    font-weight: 600;
+}
+.description{
+    color: #687C90;
+    font-weight: 500;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-height: 20vh;
+    margin-bottom: 4rem;
+
+}
+.btn{
+    margin-top: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+.btn i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: 700;
+    color: #4FA2E7;
+}
+.Surprice{
+   margin-top: .7rem;
+   padding: .2em .8em;
+   background:#F1F5F8 ;
+   color: #4FA2E7;
+   font-weight: 600;
+   border-color: #4FA2E7;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.flrxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-device-width: 480px){
+    html{
+        font-size: 60%;
+    }
+    .wrraper{
+        top: 50%;
+    }
+
+}
+@media screen and (min-device-width: 481px)
+    and (max-device-width: 1024px) {
+    html{
+        font-size: 70%;
+    }
+
+}
+ 
