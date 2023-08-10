@@ -25,7 +25,7 @@ const reviews=[
         id:4,
         name:'Anna Dkosta',
         job:'Tester',
-        about:"Step into the world of creativity with Rolef King, an ingenious Graphics Designer who weaves visual magic into every project. Rolef's artistic flair and attention to detail breathe life into concepts, transforming them into stunning visual masterpieces. Whether it's branding, illustrations, or UI/UX designs, Rolef's work leaves an indelible mark, capturing attention and igniting imagination.",
+        about:"Precision meets perfection in the work of Anna Dkosta, a meticulous Tester who leaves no stone unturned in ensuring flawless digital experiences. Anna's dedication to quality assurance guarantees that software and applications run seamlessly, meeting the highest standards. With an eagle eye for detail and a commitment to excellence, Anna ensures that technology performs at its best.",
         img:'https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg'
     }
 ];
